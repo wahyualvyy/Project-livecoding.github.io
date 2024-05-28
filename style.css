@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&family=Kaushan+Script&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    /* font-family: "Inknut Antiqua", serif; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    text-align: center;
+    position: relative;
+}
+
+h2::before{
+    content: "";
+    height: 2px;
+    background-color: black;
+    width: 50vw;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    z-index: -3;
+} 
+
+h2::after{
+    content: "";
+    height: 2px;
+    background-color: black;
+    width: 50vw;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    z-index: -2;
+} 
+span {
+    background-color: white;
+    padding: 0 20px;
+}
